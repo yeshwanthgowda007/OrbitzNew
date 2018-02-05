@@ -6,14 +6,14 @@
 	<listener class-name="Utility.TestListener" />
 </listeners>
 
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="ChromeTest">
   <parameter name="browser" value="chrome"/>
     <classes>
       <class name="Script.TestApp"/>
     </classes>
   </test> <!-- Test -->
   
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="FirefoxTest">
   <parameter name="browser" value="firefox"/>
     <classes>
       <class name="Script.TestApp"/>
