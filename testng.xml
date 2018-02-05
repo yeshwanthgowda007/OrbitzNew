@@ -13,10 +13,10 @@
     </classes>
   </test> <!-- Test -->
   
-  <test thread-count="5" name="FirefoxTest">
+  <!-- <test thread-count="5" name="FirefoxTest">
   <parameter name="browser" value="firefox"/>
     <classes>
       <class name="Script.TestApp"/>
     </classes>
-  </test> <!-- Test -->
+  </test> Test -->
 </suite> <!-- Suite -->
